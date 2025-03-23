@@ -1,0 +1,124 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #e13f2a;
+    text-align: center; 
+    font-weight: bold;
+    font-family: Elephant;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+    font-size: 40px;
+    text-decoration: underline;
+}
+body {
+    background-color: #faebdb;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: #e13f2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url(/image.png);
+    height: 62px;
+    width: 250px;
+    background-size: cover;
+    margin-right: 10px;
+}
+.nav-direction{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    
+}
+.nav-direction a {
+    text-decoration: none;
+    color: #e13f2a;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #faebdb; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+.nav-direction a:hover {
+    text-decoration: underline;
+}
+p{
+    color:  rgb(80, 23, 23);
+    font-size: large;
+    margin-inline: 10%;
+    position: relative;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center; 
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+    font-size: 24px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.left-container {
+    background-color: #e13f2a;
+    width: 70%;
+    height:120%;
+    padding: 300px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.left-container-class {
+    background-image: url(/pexels-leeloothefirst-5428832.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.right-container {
+    width: 120%;
+    padding: 100px;
+    box-sizing: border-box;
+    font-size: 75px;
+    display: inline-flex;
+    justify-items: center;
+    text-align: right;
+}
+button{
+    background-color: #e13f2a;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
